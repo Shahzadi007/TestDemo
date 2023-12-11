@@ -1,0 +1,37 @@
+
+.right-side-body{
+  background-color: rgb(219, 218, 213)
+}
+.left_side_item {
+  background-color: rgb(50, 50, 50,0.5);
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+/*  background-color: rgb(104, 56, 236);*/
+    }
+
+.left_side_item:hover {
+/*      background-color: rgb(5, 130, 115);*/
+      transform: scale(1.07); 
+      transition: 0.4s;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border: 1px solid white;
+      background-color: black;
+      border-radius: 10px;
+    }
+     .left_side_item_text {
+      color: white; /* Change text color on hover */
+    }
+    .left_side_item:hover .left_side_item_text {
+      color: white; /* Change text color on hover */
+    }
+       /* Media query for small screens */
+       @media screen and (max-width: 600px) {
+      .left_side_item  .left_side_item_text {
+        display: none; /* Hide text on small screens */
+      }
+      
+    }
